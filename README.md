@@ -10,7 +10,6 @@ By isolating and reproducing potential problems, this project serves as a **sand
 
 ## 🎯 Goals
 - Reproduce and analyze **pre-generated type code issues** in WolverineFx.
-- Evaluate **startup performance impacts** when using pre-generated vs dynamically generated code.
 - Document findings, edge cases, and possible workarounds.
 - Provide a reference for future troubleshooting or framework improvements.
 
