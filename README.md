@@ -4,7 +4,7 @@
 This repository is **not production code**.  
 Its sole purpose is to **investigate issues related to pre-generated type code in [WolverineFx](https://wolverinefx.net/)**.  
 
-By isolating and reproducing potential problems, this project serves as a **sandbox** for experimentation, debugging, and documenting findings. It should be treated as an **R&D effort only**.
+By isolating and reproducing potential problems, this project serves as a **sandbox** for experimentation, debugging, and documenting findings. It should be treated as an **Bugfixing effort only**.
 
 ---
 
