@@ -1,3 +1,4 @@
+using ClassLibrary1;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Azure.Functions.Worker;
@@ -14,7 +15,7 @@ public class Function1(ILogger<Function1> logger, IMessageBus messageBus)
     public async Task<IActionResult> Run([HttpTrigger(AuthorizationLevel.Function, "get", "post")] HttpRequest req)
     {
         _logger.LogInformation("C# HTTP trigger function processed a request.");
-        var result = await messageBus.InvokeAsync<string>(new ClassLibrary1.Command { Message = "Hello from Function1!" });
+        var result = await messageBus.InvokeAsync<string>(new Command { Message = "Hello from Function1!" });
         return new OkObjectResult(result);
     }
 }
